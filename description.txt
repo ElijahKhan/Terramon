@@ -1,0 +1,18 @@
+[c/FFFF66:Terramon] is a mod that adds content from the awesome Pokémon franchise. The mod adds many catchable Pokémon and your mission is to befriend them all. Concepts from the franchise are present, such as evolution and even mega evolution.
+
+
+[c/FF3333:Attention:] The mod is in early development, so expect to find bugs or glitches. Multiplayer compatibility has not yet been tested and most likely does not work. Many sprites are placeholders until higher quality ones are created. Currently only Bulbasaur is available as a Starter Pokemon!
+
+
+[c/FF69B4:Current Content:]
+
+[c/FF7F50:Pokemon:] Bulbasaur and Pikachu can be encountered and caught in the wild.
+[c/FF7F50:Red the Town NPC:] Red will get you set up with everything you need for your adventure (at a price, of course).
+[c/FF7F50:Pokeball:] A device for catching wild Pokémon. It is thrown like a ball at the target, designed as a capsule system.
+[c/FF7F50:Great Ball:] A good, high-performance Ball that provides a higher Pokémon catch rate than a Pokéball.
+[c/FF7F50:Ultra Ball:] It's an ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball.
+
+
+[c/FF69B4:Mod Changelog:]
+[c/FF6347:1.0.0]: Initial release. Added 2 Pokemon (Bulbasaur and Pikachu), three Pokeball variants, and an interactive Pokedex.
+

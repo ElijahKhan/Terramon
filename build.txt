@@ -1,0 +1,4 @@
+author = IchorDev
+version = 1.0.0
+displayName = [c/FFFF66:Terramon]
+homepage = https://discord.gg/GCYvuje
