@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace Terramon.Items
 {
@@ -18,6 +19,12 @@ namespace Terramon.Items
 					+ "\nWhile this item is in your inventory, use [c/FF3333:/pokedex] to open the dex menu."
 						+ "\n[c/33FF33:The Professor may have new things to say once in a while.]"
 							+ "\nOh, and you probably shouldn't get rid of it.");
+			DisplayName.AddTranslation(GameCulture.Chinese, "宝可梦图鉴");
+			Tooltip.AddTranslation(GameCulture.Chinese, "这是一个由[c/33FF33:大木博士]设计的电子百科全书, 对训练家来说十分重要."
+				+ "\n[c/FFFF66:使用它来和博士通讯!]"
+					+ "\n当此物品在你的物品栏中时, 输入 [c/FF3333:/pokedex] 来打开图鉴菜单."
+						+ "\n[c/33FF33:博士可能会时不时地告诉你一些新东西.]"
+							+ "\n扔掉它可能不是个好选择.");
 		} 
 		public override void SetDefaults()
 		{

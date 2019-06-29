@@ -1,5 +1,6 @@
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace Terramon.Items.Pokeballs
 {
@@ -10,6 +11,9 @@ namespace Terramon.Items.Pokeballs
 			DisplayName.SetDefault("Great Ball");
 			Tooltip.SetDefault("A good, high-performance Ball."
 				+ "\nProvides a higher Pokémon catch rate than a Pokéball.");
+			DisplayName.AddTranslation(GameCulture.Chinese, "超级球");
+			Tooltip.AddTranslation(GameCulture.Chinese, "性能还算不错的球."
+				+ "\n比精灵球更容易捉到宝可梦.");
 		}
 		public override void SetDefaults()
 		{

@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace Terramon.Projectiles.PKMN
 {
@@ -11,6 +12,7 @@ namespace Terramon.Projectiles.PKMN
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Bulbasaur");
+			DisplayName.AddTranslation(GameCulture.Chinese, "妙蛙种子");
 			Main.projFrames[projectile.type] = 8;
 			Main.projPet[projectile.type] = true;
 		}

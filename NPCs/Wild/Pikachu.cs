@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace Terramon.NPCs.Wild
 {
@@ -10,6 +11,7 @@ namespace Terramon.NPCs.Wild
 	{
 		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Pikachu");
+			DisplayName.AddTranslation(GameCulture.Chinese, "皮卡丘");
 			Main.npcFrameCount[npc.type] = Main.npcFrameCount[NPCID.Bunny];
 		}
 

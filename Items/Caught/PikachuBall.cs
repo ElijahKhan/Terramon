@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace Terramon.Items.Caught
 {
@@ -11,6 +12,9 @@ namespace Terramon.Items.Caught
 			DisplayName.SetDefault("Pokéball (Pikachu)");
 			Tooltip.SetDefault("Use to send out [c/E5E500:Pikachu!]"
 				+ "\n[c/B76FB7:Tier One]");
+			DisplayName.AddTranslation(GameCulture.Chinese, "精灵球 (皮卡丘)");
+			Tooltip.AddTranslation(GameCulture.Chinese, "用于派出[c/E5E500:皮卡丘!]"
+				+ "\n[c/B76FB7:一级]");
 		}
 
 		public override void SetDefaults()

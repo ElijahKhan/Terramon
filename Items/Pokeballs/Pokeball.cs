@@ -1,5 +1,6 @@
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace Terramon.Items.Pokeballs
 {
@@ -11,6 +12,10 @@ namespace Terramon.Items.Pokeballs
 			Tooltip.SetDefault("A device for catching wild Pokémon."
 				+ "\nIt is thrown like a ball at the target."
 					+ "\nIt is designed as a capsule system.");
+			DisplayName.AddTranslation(GameCulture.Chinese, "精灵球");
+			Tooltip.AddTranslation(GameCulture.Chinese, "捕捉野生宝可梦的道具."
+				+ "\n用于投向野生宝可梦并将其捕捉的球."
+					+"它是胶囊样式的.");
 		}
 		public override void SetDefaults()
 		{

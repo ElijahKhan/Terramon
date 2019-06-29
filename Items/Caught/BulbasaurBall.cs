@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace Terramon.Items.Caught
 {
@@ -11,6 +12,9 @@ namespace Terramon.Items.Caught
 			DisplayName.SetDefault("Pokéball (Bulbasaur)");
 			Tooltip.SetDefault("Use to send out [c/33FF33:Bulbasaur!]"
 				+ "\n[c/B76FB7:Tier One]");
+			DisplayName.AddTranslation(GameCulture.Chinese, "精灵球 (妙蛙种子)");
+			Tooltip.AddTranslation(GameCulture.Chinese, "用于派出[c/33FF33:妙蛙种子!]"
+				+ "\n[c/B76FB7:一级]");
 		}
 
 		public override void SetDefaults()

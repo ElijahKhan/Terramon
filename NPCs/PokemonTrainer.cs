@@ -27,6 +27,7 @@ namespace Terramon.NPCs
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Pokémon Trainer");
+			DisplayName.AddTranslation(GameCulture.Chinese, "宝可梦训练家");
 			Main.npcFrameCount[npc.type] = 26;
 			NPCID.Sets.ExtraFramesCount[npc.type] = 9;
 			NPCID.Sets.AttackFrameCount[npc.type] = 4;

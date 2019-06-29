@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace Terramon.Items
 {
@@ -13,6 +14,9 @@ namespace Terramon.Items
 			DisplayName.SetDefault("Rare Candy");
 			Tooltip.SetDefault("A candy that is packed with energy."
 				+ "\nThey can be used to level up [c/FFFF66:Pokémon.]");
+			DisplayName.AddTranslation(GameCulture.Chinese, "神奇糖果");
+			Tooltip.AddTranslation(GameCulture.Chinese, "充满能量的糖果."
+				+ "\n可用于升级[c/FFFF66:宝可梦.]");
 		} 
 		public override void SetDefaults()
 		{
